@@ -1,0 +1,29 @@
+order_id,order_date,customer_id,product,category,unit_price,Total Amount
+101,2024-01-01,CUST001,Phone,electronics,500,1000
+106,01/02/2024,CUST001,Headphones,electronics,50,50
+107,01/02/2024,CUST001,Headphones,electronics,1000,3000
+113,2024/04/05,004,Monitor,electronics,200,400
+123,2024-01-01,C-003,Phone,electronics,1000,3000
+128,01/02/2024,CUST002,Phone,electronics,300,300
+129,2024-01-01,CUST001,Headphones,electronics,500,1500
+13,01/02/2024,CUST001,Laptop,electronics,300,600
+135,2024-01-01,004,Tablet,electronics,500,500
+136,2024/04/05,004,Phone,electronics,500,1500
+137,01/02/2024,CUST002,Tablet,electronics,300,300
+147,2024/04/05,CUST001,Phone,electronics,50,150
+148,01/02/2024,CUST001,Laptop,electronics,300,300
+15,2024-01-01,CUST002,Phone,electronics,200,600
+28,2024-01-01,CUST002,Headphones,electronics,1000,3000
+29,March 3 2024,CUST002,Phone,electronics,1000,1000
+30,2024/04/05,004,Phone,electronics,50,100
+33,2024/04/05,CUST001,Phone,electronics,500,1500
+38,2024-01-01,004,Headphones,electronics,500,1500
+39,01/02/2024,CUST002,Tablet,electronics,500,1000
+5,2024/04/05,CUST001,Monitor,electronics,1000,2000
+62,01/02/2024,C-003,Tablet,electronics,1000,1000
+64,March 3 2024,004,Phone,electronics,500,1500
+69,March 3 2024,C-003,Phone,electronics,200,600
+73,01/02/2024,CUST002,Monitor,electronics,1000,1000
+81,2024/04/05,C-003,Phone,electronics,200,400
+90,2024-01-01,CUST002,Monitor,electronics,1000,3000
+96,March 3 2024,C-003,Tablet,electronics,500,1000
