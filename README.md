@@ -93,16 +93,12 @@ order_id,order_date,customer_id,product,category,unit_price,Total Amount
 107,01/02/2024,CUST001,Headphones,electronics,1000,3000
 113,2024/04/05,004,Monitor,electronics,200,400
 
-
-Azure-DataFactory-Sales-Task/
-┌─────────────────────────────────┬──────────────────────────────────────────────┐
-│ File                            │ Description                                  │
-├─────────────────────────────────┼──────────────────────────────────────────────┤
-│ sales.csv                       │ Raw, unprocessed sales data                  │
-│ cleaned_sales.csv               │ Output after ETL pipeline                    │
-│ cloud final.pdf                 │ Additional documentation / report            │
-│ README.md                       │ Project documentation                        │
-└─────────────────────────────────┴──────────────────────────────────────────────┘
+| File | Description |
+|------|-------------|
+| sales.csv | Raw, unprocessed sales data |
+| cleaned_sales.csv | Output after ETL pipeline |
+| cloud final.pdf | Additional documentation / report |
+| README.md | Project documentation |
 
 
 ## Requirements
