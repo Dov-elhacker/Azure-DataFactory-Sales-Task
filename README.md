@@ -76,18 +76,27 @@ Verify Output
 Check your Blob Storage container for the cleaned_sales.csv file.
 
 Compare with the sample output provided in this repo.
-Before (Raw sales.csv)
-order_id	order_date	customer_id	product	category	quantity	unit_price	Total Amount
-103		cust002	Headphones		2	-100	-200
-93	2024-01-01	C-003	Phone	Elec	-1	-100	100
-15	2024-01-01	cust002	Phone	Elec	3	200	600
-107	01/02/2024	CUST001	Headphones	Elec	3	1000	3000
-After (Cleaned cleaned_sales.csv)
-order_id	order_date	customer_id	product	category	unit_price	Total Amount
-101	2024-01-01	CUST001	Phone	electronics	500	1000
-106	01/02/2024	CUST001	Headphones	electronics	50	50
-107	01/02/2024	CUST001	Headphones	electronics	1000	3000
-113	2024/04/05	004	Monitor	electronics	200	400
+
+
+### Before (Raw `sales.csv`)
+
+| order_id | order_date | customer_id | product | category | quantity | unit_price | Total Amount |
+|----------|------------|-------------|---------|----------|----------|------------|---------------|
+| 103 | | cust002 | Headphones | | 2 | -100 | -200 |
+| 93 | 2024-01-01 | C-003 | Phone | Elec | -1 | -100 | 100 |
+| 15 | 2024-01-01 | cust002 | Phone | Elec | 3 | 200 | 600 |
+| 107 | 01/02/2024 | CUST001 | Headphones | Elec | 3 | 1000 | 3000 |
+
+### After (Cleaned `cleaned_sales.csv`)
+
+| order_id | order_date | customer_id | product | category | unit_price | Total Amount |
+|----------|------------|-------------|---------|----------|------------|---------------|
+| 101 | 2024-01-01 | CUST001 | Phone | electronics | 500 | 1000 |
+| 106 | 01/02/2024 | CUST001 | Headphones | electronics | 50 | 50 |
+| 107 | 01/02/2024 | CUST001 | Headphones | electronics | 1000 | 3000 |
+| 113 | 2024/04/05 | 004 | Monitor | electronics | 200 | 400 |
+
+
 | File | Description |
 |------|-------------|
 | sales.csv | Raw, unprocessed sales data |
