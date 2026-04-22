@@ -95,7 +95,30 @@ order_id,order_date,customer_id,product,category,unit_price,Total Amount
 
 
 Azure-DataFactory-Sales-Task/
-├── sales.csv                 # Raw, unprocessed sales data
-├── cleaned_sales.csv         # Output after ETL pipeline
-├── cloud final.pdf           # Additional documentation / report
-└── README.md                 # Project documentation
+┌─────────────────────────────────┬──────────────────────────────────────────────┐
+│ File                            │ Description                                  │
+├─────────────────────────────────┼──────────────────────────────────────────────┤
+│ sales.csv                       │ Raw, unprocessed sales data                  │
+│ cleaned_sales.csv               │ Output after ETL pipeline                    │
+│ cloud final.pdf                 │ Additional documentation / report            │
+│ README.md                       │ Project documentation                        │
+└─────────────────────────────────┴──────────────────────────────────────────────┘
+
+
+## Requirements
+
+| Requirement | Details |
+|-------------|---------|
+| Azure Subscription | Required to deploy ADF and Blob Storage |
+| Azure Data Factory | Version V2 (with Data Flow enabled) |
+| Azure Blob Storage | General-purpose V2 storage account |
+| Permissions | Contributor or Owner role on the resource group |
+
+Acknowledgments
+Inspired by real-world data cleaning challenges in retail analytics.
+
+Built as a hands-on project to demonstrate Azure Data Factory capabilities for data engineering portfolios.
+
+Contact
+Author: Dov-elhacker
+Project Link: https://github.com/Dov-elhacker/Azure-DataFactory-Sales-Task
