@@ -119,6 +119,7 @@ Inspired by real-world data cleaning challenges in retail analytics.
 
 Built as a hands-on project to demonstrate Azure Data Factory capabilities for data engineering portfolios.
 
-Contact
-Author: Dov-elhacker
-Project Link: https://github.com/Dov-elhacker/Azure-DataFactory-Sales-Task
+|Contact|
+|....|....|
+|Author| Dov-elhacker|
+|Project Link| https://github.com/Dov-elhacker/Azure-DataFactory-Sales-Task |
